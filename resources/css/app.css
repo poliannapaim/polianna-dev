@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+main {
+    width: 50vw;
+}
+
+p {
+    width: 600px;
+}
+
+.profile {
+    background: radial-gradient(60.42% 60.42% at 30.12% 33.73%, #FFB5B5 0%, #BF5E66 100%);
+}
+
+nav ul li a.active {
+    color: #FFD9DC;
+    font-weight: 700;
+}
