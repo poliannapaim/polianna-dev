@@ -8,15 +8,24 @@ main {
     width: 50vw;
 }
 
+.h1 {
+    margin-right: -.75em;
+}
+
+.w-600 {
+    width: 600px;
+}
+
 p {
     width: 600px;
+    white-space: pre-line;
 }
 
 .profile {
     background: radial-gradient(60.42% 60.42% at 30.12% 33.73%, #FFB5B5 0%, #BF5E66 100%);
 }
 
-nav ul li a.active {
+.active {
     color: #FFD9DC;
     font-weight: 700;
 }

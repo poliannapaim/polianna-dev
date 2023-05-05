@@ -1,1 +1,1 @@
-<div {{ $attributes->merge(['class' => 'w-24 h-16 bg-logo bg-cover'])}}></div>
+<div {{ $attributes->merge(['class' => 'w-24 h-16 bg-logo bg-cover']) }}></div>
