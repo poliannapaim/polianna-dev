@@ -12,13 +12,25 @@ module.exports = {
       'terra-cotta': '#BF5E66',
       'soft-pink': '#FFB5B5',
       'pale-pink': '#FFD9DC',
+      'transparent': 'transparent',
     },
     extend: {
       backgroundImage: {
         'circle': "url('/storage/app/public/images/background.svg')",
+        'mobile': "url('/storage/app/public/images/background-mobile.svg')",
+        'top': "url('/storage/app/public/images/top.svg')",
         'logo': "url('/storage/app/public/images/logo.svg')",
         'eu': "url('/storage/app/public/images/eu.png')",
+      },
+      width: {
+        '35vw': '35vw',
+        '60vw': '60vw',
+        '90vw': '90vw',
       }
+    },
+    backgroundPosition: {
+      'custom': 'center top',
+      'center': 'center',
     },
     fontFamily: {
       'sans': ['Poppins', ...defaultTheme.fontFamily.sans],

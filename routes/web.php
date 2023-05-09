@@ -21,6 +21,18 @@ Route::get('/about', function () {
     return view('about');
 });
 
-Route::get('/ux', function () {
-    return view('ux');
+Route::get('/uxr', function () {
+    return view('uxr');
+});
+
+Route::get('/uxr/gina', function () {
+    return view('uxr');
+})->name('gina');
+
+Route::get('/uxr/leaf', function () {
+    return view('uxr');
+})->name('leaf');
+
+Route::get('/dev', function () {
+    return view('uxr');
 });

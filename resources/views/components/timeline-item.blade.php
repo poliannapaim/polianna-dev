@@ -1,15 +1,8 @@
-<li class='flex items-start space-x-3'>
-    <div class='flex-1 space-y-3'>
-        <div class='w-600 flex items-end justify-between'>
-            <span class='text-terra-cotta text-base font-bold uppercase'>{{ $title }}</span>
-            <a rel='noopener noreferrer'
-            href="{{ $link }}"
-            target='_blank'
-            class='inline-flex items-center px-3 py-1 space-x-2 rounded-full
-            text-terra-cotta text-sm font-bold
-            border border-terra-cotta group'>
-                <span class='group-hover:font-black'>{{ $info }}</span>
-            </a>
-        </div>
-    </div>
+<li class='pb-2 mb-5 ml-4'>
+    <div class='absolute w-3 h-3 bg-terra-cotta rounded-full mt-2.5 -left-1.5'></div>
+    <a rel='noopener noreferrer'
+    href="{{ $link }}"
+    target='_blank'
+    class='mb-1 text-sm font-bold leading-none text-terra-cotta uppercase hover:font-black'>{{ $info }}</a>
+    <h3 class='text-lg font-semibold'>{{ $title }}</h3>
 </li>
